@@ -1,17 +1,17 @@
 
-describe('Jsbuzz', function() {
-    var jsbuzz;
+describe('JavaBuzz', function() {
+    var javabuzz;
     beforeEach(function(){
-      jsbuzz = new Jsbuzz();
+      javabuzz = new JavaBuzz();
     });
     describe('knows when a number is', function(){
         it ('divisible by a divisor', function(){
-            expect(jsbuzz._isDivisibleBy(3, 3)).toBe(true);
+            expect(javabuzz._isDivisibleBy(3, 3)).toBe(true);
         });
     });
     describe('knows when a number is NOT', function(){
       it('divisible by a divisor', function() {
-        expect(jsbuzz._isDivisibleBy(1, 3)).toBe(false);
+        expect(javabuzz._isDivisibleBy(1, 3)).toBe(false);
       });
     });
 } );
